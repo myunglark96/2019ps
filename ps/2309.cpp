@@ -9,7 +9,7 @@ int main() {
 	int Nan[9], ind[9];
 	vector<int> realNan;
 	for (int i = 0; i < 9; i++) {
-		scanf("%d", &Nan[i]);
+		scanf_s("%d", &Nan[i]);
 	}
 
 	sort(Nan, Nan+9);
